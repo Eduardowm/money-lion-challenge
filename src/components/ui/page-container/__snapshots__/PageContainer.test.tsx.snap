@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContainer renders as expected 1`] = `
+<div>
+  <div
+    class="flex max-w-[600px] w-full mx-auto my-5 px-2"
+  >
+    This is the page container content
+  </div>
+</div>
+`;

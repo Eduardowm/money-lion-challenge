@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentCard renders as expected 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-2 p-2 border border-gray-800 rounded"
+  >
+    <div
+      data-radix-aspect-ratio-wrapper=""
+      style="position: relative; width: 100%; padding-bottom: 75%;"
+    >
+      <div
+        style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px;"
+      >
+        <img
+          alt="A mock title"
+          class="rounded"
+          src="/images/mock.jpg"
+        />
+      </div>
+    </div>
+    <div
+      class="flex flex-col px-1"
+    >
+      <div
+        class="flex w-full justify-between"
+      >
+        <div
+          class="flex flex-col"
+        >
+          <h2
+            class="text-base sm:text-lg font-semibold"
+          >
+            A mock title
+          </h2>
+          <p
+            class="text-sm sm:text-base text-gray-400"
+          >
+            A mock subtitle
+          </p>
+        </div>
+        <span
+          class="text-gray-400 text-nowrap w-fit text-sm sm:text-base"
+        >
+          Mock author
+        </span>
+      </div>
+      <div
+        class="w-full text-sm sm:text-base mt-2 text-lines-limit-3"
+      >
+        A mock content with a lot of text to fill the space
+      </div>
+      <div
+        class="flex justify-end"
+      >
+        <button
+          class="text-gray-500 hover:text-gray-300 text-right text-sm sm:text-base"
+        >
+          Read more
+        </button>
+      </div>
+    </div>
+    <hr
+      class="border-gray-800 mx-[-8px]"
+    />
+    <div
+      class="px-1"
+    >
+      <button
+        class="text-gray-500 hover:text-gray-300"
+      >
+        View 
+        2
+         comment
+        s
+      </button>
+    </div>
+  </div>
+</div>
+`;

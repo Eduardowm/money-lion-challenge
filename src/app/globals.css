@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-lines-limit-3 {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 4.8em;
+    line-height: 1.6em;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders as expected 1`] = `
+<div>
+  <button
+    class="text-gray-500 hover:text-gray-300"
+  >
+    Button Text
+  </button>
+</div>
+`;
+
+exports[`Button renders as expected with optional props 1`] = `
+<div>
+  <button
+    class="text-gray-500 hover:text-gray-300 w-full"
+  >
+    Button Text
+  </button>
+</div>
+`;

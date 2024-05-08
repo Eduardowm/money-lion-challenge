@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainLayout renders as expected 1`] = `
+<div>
+  <main
+    class="flex min-h-screen flex-col bg-gray-900 text-white"
+  >
+    This is the main layout content
+  </main>
+</div>
+`;
